@@ -1,0 +1,14 @@
+@import "mq";
+@import "fonts";
+@import "palette";
+@import "map";
+@import "key";
+@import "headline";
+@import "leaflet";
+@import "credits";
+
+
+#app {
+	max-width: 1200px;
+	margin: auto;
+}
