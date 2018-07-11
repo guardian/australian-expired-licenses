@@ -26,9 +26,9 @@ class MasterClass {
 
     	this.longitude = 150.253718
 
-    	this.colours = ["#FFD700",  "#c69c6d"];
+    	this.colours = ["#7d0068",  "#FA8775"];
 
-    	this.tenements = ["Petroleum explortion license", "Petroleum accessment lease"];
+    	this.tenements = ["Petroleum explortion licence or permit", "Petroleum assessment lease"];
 
     	this.categories = []
 
@@ -85,7 +85,7 @@ class MasterClass {
 
 			self.categories.indexOf(type) === -1 ? self.categories.push(type) : '';
 
-			return (type==="PEL") ? "#FFD700" : "#c69c6d" ;
+			return (type==="PEL" | type==="PEP") ? "#7d0068" : "#FA8775" ;
 
 		}
 
