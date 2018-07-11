@@ -156,7 +156,7 @@ class MasterClass {
 
         	var datum = data.feature.properties
 
-        	datum.label = (datum.TITLE_CODE === "PEL") ? "Petroleum explortion license": "Petroleum accessment lease" ;
+        	datum.label = (datum.TITLE_CODE === "PEL") ? "Petroleum explortion licence or permit": "Petroleum assessment lease" ;
 
         	datum.COMPANY = (datum.COMPANY!=null) ? datum.COMPANY.replace(/,/g, '<br>') : (datum.RESOURCE==='Exploration Release Area') ? 'An area that comapnies can make <br/>bids on exploration permits for' : 'Not specified' ;
 
